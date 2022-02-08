@@ -1,0 +1,21 @@
+{
+  "name": "sample_intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:viewport": "npx cypress run --spec ='./cypress/integration/testScripts/a11ySample.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axe-core": "^4.4.0",
+    "cypress": "^9.3.1",
+    "cypress-axe": "^0.14.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
+}

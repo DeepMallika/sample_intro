@@ -1,0 +1,17 @@
+{
+    "watchForFileChanges" : true,
+     "viewportHeight" :660,
+    "viewportWidth" : 1000,
+    "defaultCommandTimeout" : 5000,
+   
+    "video" : false,
+     "env" : {
+         "username" : "tomsmith",
+         "password" : "SuperSecretPassword!"
+     },
+     "retries" : {  
+         "openMode" : 2 ,
+         "runMode" : 2
+     }
+}
+
